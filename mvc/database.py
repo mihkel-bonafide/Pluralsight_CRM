@@ -23,7 +23,7 @@ class Database:
         self.data = {
             "ACCT100": {"paid": 60, "due": 100},  # balance = 40
             "ACCT200": {"paid": 70, "due": 60},  # balance = -10
-            "ACCT300": {"paid": 0, "due": 0},  # balance = 0
+            "ACCT300": {"paid": 0, "due": 0},  # balance = 0  mihkel was here 
         }
 
     def balance(self, acct_id):
